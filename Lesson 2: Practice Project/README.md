@@ -1,3 +1,9 @@
+#Project
+
+Resources from https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
+Keep the data in resources directory under project root.
+
+
 #Notes:
 
 ##Simple bayesian
