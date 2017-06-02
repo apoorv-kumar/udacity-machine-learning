@@ -78,6 +78,21 @@ w[t] = TF[t]*IDF[t]
 Groups of n words in a seq. Bigram, trigram ...
 But this leads to explosion of n-grams. We can use log-likelihood test which can determine whether 2 words occur together by chance because they form a significant unit.
 
+### Model
+
+#### Accuracy
+Correct Predictions/Total Predictions
+
+#### Precision
+True Positives/Total Positives
+
+#### Recall (sensitivity)
+True Positives/True Positives + False Negatives
+
+#### F1 score
+Accuracy alone is not a good metric for use cases distribution is skewed towards one category. Here we use accuracy and recall.
+
+
 ### Scikit Learn
 #### fit_transform
 fit: feature extraction. For count vectorizer, it'd be a tokenized words.
