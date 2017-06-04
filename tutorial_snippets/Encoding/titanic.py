@@ -27,7 +27,6 @@ print(X)
 
 ohe = OneHotEncoder()
 
-for feature in X:
-    X[feature] = ohe.fit_transform(X[[feature]])
+onehotlables = ohe.fit_transform(X)
 
-print(X[:1])
+print(onehotlables)

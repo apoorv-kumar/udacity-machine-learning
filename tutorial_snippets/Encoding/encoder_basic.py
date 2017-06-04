@@ -51,7 +51,7 @@ ohe = preprocessing.OneHotEncoder()
 ohe_encoded = ohe.fit_transform(shaped_data)
 print("ohe encoded (sparse matrix representation):\n" + str(ohe_encoded))
 
-# ohe encoded (sparse array representation):
+# ohe encoded (sparse matrix representation):
 #   (0, 0)        1.0
 #   (1, 2)        1.0
 #   (2, 1)        1.0
